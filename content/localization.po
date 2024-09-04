@@ -1,0 +1,98 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: sociocracy-30\n"
+"X-Crowdin-Project-ID: 88253\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: localization.pot\n"
+"X-Crowdin-File-ID: 947\n"
+"Project-Id-Version: sociocracy-30\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"PO-Revision-Date: 2024-07-04 13:33\n"
+
+# continuation marker for follow-up slides
+msgid "(…)"
+msgstr "(…)"
+
+# patterns (plural)
+msgid "Patterns"
+msgstr "Патерни"
+
+# pattern (singular)
+msgid "Pattern"
+msgstr "Патерн"
+
+# site title for practical guide microsite
+msgid "A Practical Guide to Sociocracy 3.0"
+msgstr "Практичний посібник з соціократії 3.0"
+
+# title for ebook
+msgid "A Practical Guide for Evolving Agile and Resilient Organizations with Sociocracy 3.0"
+msgstr "Практичний посібник для розвитку гнучких та стійких організацій за допомогою Соціократії 3.0"
+
+# subtitle for ebook
+msgid "70+ Powerful Practices to Help You and Your Organization Thrive"
+msgstr "70+ ефективних практик, які допоможуть вам та вашій організації процвітати"
+
+# SE 2019
+msgid "Supporter Edition 2019"
+msgstr "Видання для прихильників 2019"
+
+# site descriptions for practical guide microsite
+msgid "The official description of Sociocracy 3.0 - All patterns, the Seven Principles and key concepts. Maintained by Bernhard Bockelbrink, James Priest and Liliana David."
+msgstr "Офіційний опис Соціократії 3.0 - Усі порядки, Сім основ і ключові ідеї. Підтримується Бернхардом Бокельбринком, Джеймсом Прістом і Ліліаною Девід."
+
+# Headline for page "Concepts and Principles" in website
+msgid "Concepts and Principles"
+msgstr "Концепти та принципи"
+
+# Headline for Section "Introduction" (e.g. in ebook)
+msgid "Introduction"
+msgstr "Вступ"
+
+# Headline for Section "The Patterns" (e.g. in ebook)
+msgid "The Patterns"
+msgstr "Патерни"
+
+# Headline for Section "Appendix" (e.g. in ebook)
+msgid "Appendix"
+msgstr "Додатки"
+
+# Pattern prefix
+msgid " Pattern %(chapter)s.%(section)s:"
+msgstr "Патерн %(chapter)s.%(section)s:"
+
+# Filename
+msgid "S3-practical-guide"
+msgstr ""
+
+# Title for reveal.js slide deck
+msgid "S3 - A Practical Guide"
+msgstr "S3 - Практичний посібник"
+
+# Pattern-Index in PDF
+msgid "Pattern-Index"
+msgstr "Список Патернів"
+
+# Title for Table of Contents in PDF
+msgid "Contents"
+msgstr "Зміст"
+
+# (mdtools) webpage bottomnavigation: next page in reading order
+msgid "Read next:"
+msgstr "Читати далі:"
+
+# (mdtools): webpage bottomnavigation: previous page in reading order
+msgid "Back to:"
+msgstr "Назад до:"
+
+# (mdtools): webpage bottom navigation
+msgid "Up:"
+msgstr "Вгору:"
+
+msgid ""
+msgstr ""
+""
+
