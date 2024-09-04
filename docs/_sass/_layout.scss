@@ -1,0 +1,119 @@
+// ----------------------------------------------------------
+// layout of the page (including behaviours)
+// ----------------------------------------------------------
+
+//
+// Site header
+// --------------------------------------------------------------------------/**
+.site-header {
+    border-top: 5px solid $grey-color-dark;
+    border-bottom: 2px solid $grey-color-light;
+    min-height: 56px;
+
+    // Positioning context for the mobile navigation icon
+    position: relative;
+
+    .site-title {
+        //float: left;
+    }
+
+    .header-title, .header-icons {
+        margin-bottom: $spacing-unit * 0.5;
+        padding-top: $spacing-unit * 0.5;
+        @include media-breakpoint-down(sm) {
+            margin-bottom: $spacing-unit * 0.25;
+            padding-top: 0px;
+
+        }
+    }
+
+    .header-title {
+        float: left;
+    }
+
+    .header-icons {
+        vertical-align: bottom;
+        white-space: nowrap;
+        float: right;
+        text-align: right;
+        @include media-breakpoint-down(sm) {
+            text-align: left;
+            min-width: 300px;
+        }
+        a img.icon { 
+            height: 25px;
+        }     
+    }
+}
+
+.main-nav {
+    $main-nav-width: 230px;
+    -ms-flex: 0 0 $main-nav-width;
+    flex: 0 0 $main-nav-width;
+    @include media-breakpoint-up(sm) {
+        float: left;
+        flex: 0 0 30px;
+    // icons in the submenu:
+        a img { 
+            height: 22px;
+        }  
+    }
+}
+
+//
+// Content
+// --------------------------------------------------------------------------
+.content-container {
+    float: right;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+}
+
+article.post {
+    max-width: $content-max-width;
+    margin-top: $spacing-unit * 0.5;
+    margin-left: auto;
+    margin-right: auto;
+
+    .bottom-nav {
+        .navigation {
+            height: 40px;
+            margin-top: $spacing-unit * 0.5;
+            display: block;        
+            white-space:nowrap;    
+        }
+        .navigation-prev {
+            float: left;        }
+        .navigation-next {
+            float: left;            
+        }
+        img.icon-prev {
+            vertical-align: left;
+            padding-right: $spacing-unit * 0.5;
+            height: 40px;
+        }
+        img.icon-next {
+            vertical-align: left;
+            padding-left: $spacing-unit * 0.5;
+            height: 40px;
+        }
+    }
+}
+
+//
+// Footer
+// --------------------------------------------------------------------------
+.site-footer {
+    margin-top: $spacing-unit * 0.5;
+    .footer-top {
+        padding-top: $spacing-unit * 0.5;
+        padding-bottom: $spacing-unit * 0.5;
+    }
+    .footer-col-bottom-right {
+        text-align: right;
+        @include media-breakpoint-down(sm) {
+            text-align: left;
+            min-width: 300px;
+        }
+    }
+}

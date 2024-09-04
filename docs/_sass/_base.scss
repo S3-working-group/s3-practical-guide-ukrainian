@@ -1,0 +1,33 @@
+// ----------------------------------------------------------
+// everything that affects the whole page
+// ----------------------------------------------------------
+
+/**
+ * Basic styling
+ */
+
+html {
+
+    font-size: $base-font-size;
+}
+
+body {
+    background-color: $background-color;
+}
+
+/**
+ * Icons
+ */
+.icon {
+
+    > svg {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+
+        path {
+            fill: $grey-color;
+        }
+    }
+}
